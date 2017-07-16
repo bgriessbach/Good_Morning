@@ -1,0 +1,20 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Good Morning",
+  "version": "1.0.0.0",
+  "description": "Good start to the day",
+  "icons": {"128": "Images/sun_16.png"},
+    "browser_action": {
+
+   "default_title": "Good Morning!",      // optional; shown in tooltip
+   "default_popup": "popup.html"        // optional
+   },
+   "permissions": [
+    "https://api.darksky.net/*"
+],
+  "background": {
+    "scripts": ["static/jquery.js","static/moment.js","static/scripts.js"],
+    "persistent": true
+  }
+  }
