@@ -1,6 +1,7 @@
 body{
    width:700px;
    height:500px;
+    background: url(/Images/congruent_pentagon-1.jpg) repeat 0 0;
 }
 
 <style>
@@ -11,25 +12,40 @@ h4 {
     font-weight: bold;
 }
 h5 {
-    color: blue;
-    margin-top: 0.6em;
-    margin-bottom: 0.1em;
-    font-family: arial;
-    font-size: 150%;
-    font-weight: bold;
+    color:  #003300;
+    margin: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 0;
 }
+p{
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 3px;
+    padding: 0;
 
+}
+b{
+     
+    color: #333300;
+}
         table, th, td 
         {
             /*margin:10px 0;*/
             border:solid 1px;
             padding:2px 4px;
-            font:15px arial;
+            font-family: 'Arvo', serif;
+            font-weight: bold;
+            color: #003312;
+
         }
         th {
             font-weight:bold;
         }
     </style>
+
 
 
 
