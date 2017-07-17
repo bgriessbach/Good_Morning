@@ -18,4 +18,4 @@ Currently not implemented yet. I want to show the times of the next leaving trai
 Currently only using CSS to update layout.  
 Worked with Colourscheme and background image.  
 
-![My image](https://github.com/bgriessbach/Good_Morning/blob/master/layout_NEW.PNG)    
+![My image](https://github.com/bgriessbach/Good_Morning/blob/master/layout_New.PNG)    
