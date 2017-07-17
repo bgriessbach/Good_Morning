@@ -15,7 +15,7 @@ Currently, I am using darksky API for the weather information.
 Currently not implemented yet. I want to show the times of the next leaving trains/busses from current location to stored locations. 
 
 ## Layout:
-Currently only using CSS to update layout.
-Worked with Colourscheme and background image.
+Currently only using CSS to update layout.  
+Worked with Colourscheme and background image.  
 
 ![My image](https://github.com/bgriessbach/Good_Morning/blob/master/layout_NEW.PNG)    
