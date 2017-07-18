@@ -1,5 +1,5 @@
 body{
-   width:700px;
+   width:600px;
    height:500px;
     background: url(/Images/congruent_pentagon-1.jpg) repeat 0 0;
 }
@@ -28,16 +28,18 @@ p{
 
 }
 b{
-     
+    font-weight: bold; 
     color: #333300;
 }
-        table, th, td 
+table, th, td 
         {
+            border-collapse: collapse;
+
             /*margin:10px 0;*/
-            border:solid 1px;
+            border:1px solid;
             padding:2px 4px;
+            font-size: 15px;
             font-family: 'Arvo', serif;
-            font-weight: bold;
             color: #003312;
 
         }
@@ -45,7 +47,6 @@ b{
             font-weight:bold;
         }
     </style>
-
 
 
 
