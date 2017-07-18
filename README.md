@@ -19,5 +19,5 @@ Currently not implemented yet. I want to show the times of the next leaving trai
 + using Google Fonts
 + www.subtlepatterns.com variation for background
 + working on a green color scheme
-+  updated table design
++ updated table design  
 ![My image](https://github.com/bgriessbach/Good_Morning/blob/master/layout.PNG)    
