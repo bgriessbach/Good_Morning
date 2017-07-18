@@ -20,4 +20,4 @@ Currently not implemented yet. I want to show the times of the next leaving trai
 + www.subtlepatterns.com variation for background
 + working on a green color scheme
 +  updated table design
-![My image](https://github.com/bgriessbach/Good_Morning/blob/master/layout_New.PNG)    
+![My image](https://github.com/bgriessbach/Good_Morning/blob/master/layout.PNG)    
