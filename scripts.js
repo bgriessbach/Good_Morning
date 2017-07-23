@@ -6,6 +6,7 @@ for (var i=0; i<location_data.length; i++){
 }
 
 
+
 function createWeather (geo_location, APIKEY, p_ID, table_ID) {
     $.getJSON(
     "https://api.darksky.net/forecast/"+APIKEY+"/"+geo_location+"?exclude=minutely,daily,alerts,flags&units=si",
@@ -17,13 +18,17 @@ function createWeather (geo_location, APIKEY, p_ID, table_ID) {
     );
 }
 
+
 function createCurrentWeather(weather_data, p_ID){
-    var hourly_summary="<b>Forecast: </b>"+JSON.stringify(weather_data.hourly.summary)+"<br>";       
+    var hourly_summary="<b>Forecast: </b>"+'<span id='+p_ID+'forecast></span>'+"<br>";       
     var timestamp=timeconvert(JSON.stringify(weather_data.currently.time));
     document.getElementById(p_ID).innerHTML =
-    '<b>Time: </b>' +timestamp+ "<br>" +
-    '<b>Summary: </b>' + JSON.stringify(weather_data.currently.summary)+"<br>" +
-    '<b>Temperature: </b>'+ JSON.stringify(weather_data.currently.temperature)+' \xB0'+'C'+"<br>"+hourly_summary;
+    '<b>Time: </b>' +timestamp+"<br>" +
+    '<b>Summary: </b>' + '<span id='+p_ID+'summary></span>'+"<br>" +
+    '<b>Temperature: </b>'+ '<span id='+p_ID+'temperature></span>'+' \xB0'+'C'+"<br>"+hourly_summary;
+    document.getElementById(p_ID+'summary').innerText=JSON.stringify(weather_data.currently.summary);
+    document.getElementById(p_ID+'temperature').innerText= JSON.stringify(weather_data.currently.temperature);
+    document.getElementById(p_ID+'forecast').innerText=JSON.stringify(weather_data.hourly.summary);
 }
 
 function createWeatherTable(weather_data, table_ID){
